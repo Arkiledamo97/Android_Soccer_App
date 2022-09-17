@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">SoccerApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Demo App</string>
+    <string name="nav_header_subtitle">demo app subtitle</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_sports">Sports</string>
+    <string name="menu_teams">Teams</string>
+    <string name="menu_athletes">Athletes</string>
+    <string name="about">About</string>
+
+    <string name="textview_athletes">TextView</string>
+    <string name="btn_add_athlete">Add Athlete</string>
+    <string name="btn_delete_athlete">Delete Athlete</string>
+    <string name="btn_update_athlete">Update Athlete</string>
+    <string name="btn_view_athletes">View Athletes</string>
+    <string name="here_you_can_add_delete_or_update_n_details_of_an_athlete">Here you can add, delete or update \n details of an athlete</string>
+    <string name="welcome_msg">Welcome to DemoApp</string>
+    <string name="menu_matches">Matches</string>
+    <string name="text_matches">Hello</string>
+    <string name="menu_more">More</string>
+    <string name="athlete_last_name">Athlete Last Name</string>
+    <string name="teams_desc">Here you can add, delete or update the details of a team</string>
+    <string name="btn_update_team">Update Team</string>
+    <string name="btn_add_team">Add team</string>
+    <string name="btn_delete_team">Delete team</string>
+    <string name="btn_add_sport">Add sport</string>
+    <string name="btn_delete_sport">Delete sport</string>
+    <string name="btn_update_sport">Update sport</string>
+    <string name="sports_desc">Here you can add, delete and update the details of a team</string>
+    <string name="athlete_id">Athlete Id</string>
+    <string name="athlete_fname">Athlete First Name</string>
+    <string name="athlete_country">Athlete Country</string>
+    <string name="athlete_town">Athlete Town</string>
+    <string name="sport_id">Sport Id</string>
+    <string name="btn_add">Confirm</string>
+    <string name="btn_cnl">Cancel</string>
+    <string name="btn_del">Delete</string>
+    <string name="btn_search">Search</string>
+    <string name="athlete_search">Search Athlete</string>
+    <string name="sport_search">Search Sport</string>
+    <string name="team_search">Search Team</string>
+    <string name="btn_upd">Update</string>
+    <string name="sport_name">Name</string>
+    <string name="sport_category">Category</string>
+    <string name="sport_gender">Gender</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="team_est">EST</string>
+    <string name="team_id">team ID</string>
+    <string name="team_country">Team Country</string>
+    <string name="team_name">Team Name</string>
+    <string name="team_arena">Team Arena</string>
+    <string name="team_town">Team Town</string>
+    <string name="match_radio_single">Single</string>
+    <string name="match_radio_teams">Teams</string>
+    <string name="match_athlete2_score">Score</string>
+    <string name="match_athlete1_score">Score</string>
+    <string name="match_add_athlete">Add Athlete</string>
+    <string name="match_add">Add Match</string>
+    <string name="match_update">Update Match</string>
+    <string name="match_delete">Delete Match</string>
+    <string name="sports_id">SPORT_ID</string>
+    <string name="sports_gender">SPORT_GENDER</string>
+    <string name="sports_category">SPORT_CATEGORY</string>
+    <string name="sports_name">SPORT_NAME</string>
+    <string name="about_desc">Demo App</string>
+    <string name="about_name1">Arqile Damo</string>
+    <string name="about_name2">Vladislavos Paraskevopoulos</string>
+    <string name="about_name3">Dimitris Roumpos</string>
+    <string name="athletes_id">ATHLETE_ID</string>
+    <string name="athletes_fname">ATHLETE_FIRST_NAME</string>
+    <string name="athletes_lname">ATHLETE_LAST_NAME</string>
+    <string name="athletes_sport_id">SPORT_ID</string>
+    <string name="athletes_town">ATHLETE_TOWN</string>
+    <string name="athletes_country">ATHLETE_COUNTRY</string>
+    <string name="matchs_town">Match Town</string>
+    <string name="match_country">Match Country</string>
+    <string name="match_date">Match Date</string>
+    <string name="teams_id">TEAM_ID</string>
+    <string name="teams_name">TEAM_NAME</string>
+    <string name="teams_arena">TEAM_ARENA</string>
+    <string name="teams_court">TEAM_COURT</string>
+    <string name="teams_country">TEAM_COUNTRY</string>
+    <string name="teams_sport_id">TEAM_SPORT_ID</string>
+    <string name="teams_est">TEAM_EST</string>
+    <string name="matches_date">MATCH_DATE</string>
+    <string name="matches_town">MATCH_TOWN</string>
+    <string name="matches_country">MATCH_COUNTRY</string>
+    <string name="matches_sport_id">MATCH_SPORT_ID</string>
+    <string name="matches_participate1">MATCH_PARTICIPATE</string>
+    <string name="matches_participate2">MATCH_PARTICIPATE_1</string>
+    <string name="matches_single">MATCHES_TYPE_SPORT</string>
+    <string name="match_remove_athlete">Remove Athlete</string>
+    <string name="match_search">Search Match</string>
+    <string name="btn_update_match">Update Match</string>
+    <string name="match_sport_cat">Sport Category</string>
+    <string name="athlete_location">Athlete Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="genders">
+        <item name="male" type="string">Male</item>
+        <item name="female" type="string">Female</item>
+    </string-array>
+
+    <string-array name="moreAth">
+        <item name="athlete3" type="string">athlete3</item>
+        <item name="athlete4" type="string">athlete4</item>
+        <item name="athlete5" type="string">athlete5</item>
+        <item name="athlete6" type="string">athlete6</item>
+        <item name="athlete7" type="string">athlete7</item>
+        <item name="athlete8" type="string">athlete8</item>
+    </string-array>
+
+    <string-array name="sport_type">
+        <item name="single" type="string">Single</item>
+        <item name="teams" type="string">Teams</item>
+    </string-array>
+
+</resources>

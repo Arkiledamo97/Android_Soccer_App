@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="e.lenovo.soccerapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_team"
+            app:destination="@id/nav_teams" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_athlete"
+            app:destination="@id/nav_athletes" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_sports"
+            app:destination="@id/nav_sports" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_athletes"
+        android:name="e.lenovo.soccerapp.ui.athlete.AthleteFragment"
+        android:label="@string/menu_athletes"
+        tools:layout="@layout/fragment_athlete" >
+        <action
+            android:id="@+id/action_nav_athlete_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_athlete_to_nav_team"
+            app:destination="@id/nav_teams" />
+        <action
+            android:id="@+id/action_nav_athlete_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_athlete_to_nav_sports"
+            app:destination="@id/nav_sports" />
+        <action
+            android:id="@+id/action_nav_athletes_to_addUpgAthleteFragment"
+            app:destination="@id/addUpgAthleteFragment" />
+        <action
+            android:id="@+id/action_nav_athletes_to_athlete_loc"
+            app:destination="@id/athlete_loc" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_teams"
+        android:name="e.lenovo.soccerapp.ui.team.TeamFragment"
+        android:label="@string/menu_teams"
+        tools:layout="@layout/fragment_teams" >
+        <action
+            android:id="@+id/action_nav_team_to_nav_athlete"
+            app:destination="@id/nav_athletes" />
+        <action
+            android:id="@+id/action_nav_team_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_team_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_team_to_nav_sports"
+            app:destination="@id/nav_sports" />
+        <action
+            android:id="@+id/action_nav_teams_to_addUpgTeamFragment"
+            app:destination="@id/addUpgTeamFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="e.lenovo.soccerapp.ui.sports.SportsFragment"
+        android:label="@string/menu_sports"
+        tools:layout="@layout/fragment_sports" >
+        <action
+            android:id="@+id/action_nav_sports_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_sports_to_nav_team"
+            app:destination="@id/nav_teams" />
+        <action
+            android:id="@+id/action_nav_sports_to_nav_athlete"
+            app:destination="@id/nav_athletes" />
+        <action
+            android:id="@+id/action_nav_sports_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_sports_to_addUpgSportFragment"
+            app:destination="@id/addUpgSportFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="e.lenovo.soccerapp.ui.about.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_nav_about_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_about_to_nav_team"
+            app:destination="@id/nav_teams" />
+        <action
+            android:id="@+id/action_nav_about_to_nav_athlete"
+            app:destination="@id/nav_athletes" />
+        <action
+            android:id="@+id/action_nav_about_to_nav_sports"
+            app:destination="@id/nav_sports" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_matches"
+        android:name="e.lenovo.soccerapp.ui.matches.MatchesFragment"
+        android:label="@string/menu_matches"
+        tools:layout="@layout/fragment_matches" >
+        <action
+            android:id="@+id/action_nav_matches_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_matches_to_nav_team"
+            app:destination="@id/nav_teams" />
+        <action
+            android:id="@+id/action_nav_matches_to_nav_athlete"
+            app:destination="@id/nav_athletes" />
+        <action
+            android:id="@+id/action_nav_matches_to_nav_sports"
+            app:destination="@id/nav_sports" />
+        <action
+            android:id="@+id/action_nav_matches_to_addUpgMatchFragment"
+            app:destination="@id/addUpgMatchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUpgAthleteFragment"
+        android:name="e.lenovo.soccerapp.ui.athlete.addUpgAthleteFragment"
+        android:label="fragment_add_upg_athlete"
+        tools:layout="@layout/fragment_add_upg_athlete" >
+        <action
+            android:id="@+id/action_addUpgAthleteFragment_to_nav_athletes"
+            app:destination="@id/nav_athletes" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUpgSportFragment"
+        android:name="e.lenovo.soccerapp.ui.sports.addUpgSportFragment"
+        android:label="fragment_add_upg_sport"
+        tools:layout="@layout/fragment_add_upg_sport" >
+        <action
+            android:id="@+id/action_addUpgSportFragment_to_nav_sports"
+            app:destination="@id/nav_sports" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUpgTeamFragment"
+        android:name="e.lenovo.soccerapp.ui.team.addUpgTeamFragment"
+        android:label="fragment_add_upg_team"
+        tools:layout="@layout/fragment_add_upg_team" >
+        <action
+            android:id="@+id/action_addUpgTeamFragment_to_nav_teams"
+            app:destination="@id/nav_teams" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUpgMatchFragment"
+        android:name="e.lenovo.soccerapp.ui.matches.addUpgMatchFragment"
+        android:label="fragment_add_upg_match"
+        tools:layout="@layout/fragment_add_upg_match" >
+        <action
+            android:id="@+id/action_addUpgMatchFragment_to_nav_matches"
+            app:destination="@id/nav_matches" />
+    </fragment>
+    <fragment
+        android:id="@+id/athlete_loc"
+        android:name="e.lenovo.soccerapp.ui.athlete.athlete_loc"
+        android:label="fragment_athlete_loc"
+        tools:layout="@layout/fragment_athlete_loc" >
+        <action
+            android:id="@+id/action_athlete_loc_to_nav_athletes"
+            app:destination="@id/nav_athletes" />
+    </fragment>
+
+</navigation>
